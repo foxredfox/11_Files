@@ -24,7 +24,7 @@ namespace _11_Files
             io.WriteStock(sw, hp);
             Assert.AreEqual("HP" + NL + "11,4" + NL + "10" + NL, sw.ToString());
         }
-/*
+
         [TestMethod]
         public void CanWriteStockYahoo()
         {
@@ -69,7 +69,5 @@ namespace _11_Files
                 output.Delete();
             }
         }
-
-*/
     }
 }

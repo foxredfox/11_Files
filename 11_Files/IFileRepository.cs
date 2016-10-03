@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace _11_Files
 {
-    interface IFileRepository : IStockRepository, IFileOperation
+    interface IFileRepository : IStockRepository
     {
-
+        string StockFileName(long id);
+        string StockFileName(Stock stock);
     }
 }

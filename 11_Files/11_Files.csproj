@@ -53,7 +53,8 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Asset.cs" />
-    <Compile Include="IFileOperation.cs" />
+    <Compile Include="FileStockRepository.cs" />
+    <Compile Include="FileStockRepositoryTests.cs" />
     <Compile Include="IFileRepository.cs" />
     <Compile Include="IStockRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

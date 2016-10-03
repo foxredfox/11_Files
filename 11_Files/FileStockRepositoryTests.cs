@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace _11_Files
 {
@@ -96,6 +97,7 @@ namespace _11_Files
             stocks = repository.FindAllStocks();
             Assert.AreEqual(0, stocks.Count);
         }
+        
         [TestMethod]
         public void CanFindAllStocks()
         {
